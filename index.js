@@ -32,7 +32,9 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
                 audio6.play();
                 break;
             case "T":
-                console.log("No input file for this button");
+                let audio9 = new Audio("c.mp3");
+                audio9.play();
+                break;               
             default:
                 console.log(buttonInnerHTML);
         }
